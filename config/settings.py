@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # third party apps
+
+
+    # we have installed them
     'accounts',
 ]
 
@@ -129,6 +133,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # models settings
-AUTH_USER_MODEL = 'accounts.CustomUser'
+
 
 
